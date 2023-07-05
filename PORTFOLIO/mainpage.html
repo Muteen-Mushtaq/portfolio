@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muteen Mushtaq - Portfolio</title>
+  <link rel="stylesheet" href="mainpage.css">
+  <style>
+    nav {
+       background-color: #333;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  nav ul li a:hover {
+    color: #ff4500;
+  }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+      
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin: 0;
+    }
+
+    main {
+      padding: 20px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .project {
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      padding: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .project:hover {
+      transform: scale(1.05);
+    }
+
+    section h2 {
+      margin-top: 0;
+    }
+
+    a {
+      color: #333;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #ff4500;
+    }
+
+    #video-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+    main {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+  }
+
+  section {
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    font-size: 24px;
+    color: var(--primary-color);
+  }
+
+  p {
+    color: var(--primary-color);
+    line-height: 1.5;
+  }
+
+  a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  a:hover {
+    color: var(--secondary-color);
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    color: var(--primary-color);
+    margin-bottom: 8px;
+  }
+
+  .project {
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    transition: transform 0.3s ease;
+  }
+
+  .project:hover {
+    transform: scale(1.05);
+  }
+  main {
+      background-color: rgb(52, 50, 50); /* Set the background color to black */
+      color: white; /* Set the text color to white */
+      padding: 20px;
+      position: relative;
+      z-index: 1;
+    }
+     .project {
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      padding: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .project:hover {
+      transform: scale(1.05);
+    }
+
+    /* Example of fade-in animation */
+    @keyframes fade-in {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    /* Apply fade-in animation to the main section */
+    main section {
+      animation: fade-in 1s;
+    }
+</style>
+
+</head>
+<body>
+ 
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+    </ul>
+  </nav>
+  <br/><br/>
+  <h1>Muteen Mushtaq</h1>
+  <p>Web & automation bot Developer enthusiast</p>
+
+  <main>
+    <section class="project">
+      <h2>About Me</h2>
+      <p>I am a passionate web developer with experience in HTML, CSS, JavaScript, and various web development frameworks. My focus is on creating modern and user-friendly web applications that deliver exceptional user experiences.</p>
+      <p>Visit my <a href="about.html">About Me</a> page to learn more about my background, experiences, and skills.</p>
+    </section>
+
+    <section class="project">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>DBMS</li>
+        <li>SQL</li>
+      </ul>
+    </section>
+
+    <section class="project">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Recipient of the Web Development Excellence Award</li>
+        <li>Published articles on web development in leading tech blogs</li>
+        <li>Speaker at multiple web development conferences</li>
+        <li>Contributor to open-source web projects</li>
+      </ul>
+    </section>
+
+    <section class="project">
+      <h3>Web Development</h3>
+      <p>Marketing Website</p>
+      <a href="#">View Project</a>
+    </section>
+
+    <section class="project">
+      <h3>Web Development</h3>
+      <p>Portfolio</p>
+      <a href="#">View Project</a>
+    </section>
+
+    <section class="project">
+      <h3>Project 3</h3>
+      <p>Description of Project 3</p>
+      <a href="#">View Project</a>
+    </section>
+  </main>
+
+  
+</body>
+</html>

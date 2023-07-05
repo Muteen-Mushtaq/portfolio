@@ -1,0 +1,217 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 100vh; /* Set the header height to the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  nav {
+    background-color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .description {
+    margin-bottom: 30px;
+  }
+  
+  .skills ul,
+  .achievements ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .project {
+    border: 1px solid #ddd;
+    padding: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project h3 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+  
+  .project p {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #ff4500;
+  }
+  
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    .project {
+      padding: 8px;
+    }
+  }
+  
+  #video-background {
+    display: none;
+  }
+  
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  header p {
+    margin-bottom: 20px;
+  }
+ 
+  
+  header p {
+    margin: 0;
+  }
+  
+  
+  nav {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #9e1818;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ff4500;
+  }
+  
+  /* Add some interesting effects */
+  
+  nav a::before,
+  nav a::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: #ff4500;
+    transition: width 0.3s ease;
+  }
+  
+  nav a::before {
+    left: 0;
+  }
+  
+  nav a::after {
+    right: 0;
+  }
+  
+  nav a:hover::before,
+  nav a:hover::after {
+    width: 50%;
+  }
+  
+  
